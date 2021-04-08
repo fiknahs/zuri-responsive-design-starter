@@ -478,3 +478,18 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 800px) {
+    input[type="text"] {
+        width: 50%;
+    }
+
+    input[type="email"] {
+        width: 50%;
+    }
+    
+    textarea {
+        width: 90%;
+        height: 200px;
+    }
+}
